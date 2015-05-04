@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="test.css" />
+<link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="960.css" />
+	
+
+	<link rel="stylesheet" href="default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="pascal.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="orman.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+   <script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#slider').nivoSlider();
+        });
+    </script>
+
+<title>Grow</title>
+
+</head><body>
+<div class="head"><div class="headhead">
+<div class="social"><p><img class="soc" src="img/24.png" alt="img" /><img class="soc" src="img/25.png" alt="img" /><img class="soc" src="img/26.png" alt="img" /></p></div><div class="form"><p class="text17">Have an account? <a class="sign" target="_blank" href="">Sign in</a>  or <a class="sign" target="_blank" href="">Sign up</a>&nbsp;&nbsp;<input type="text" class="colortext1" value="Enter Keyword" /></p></div></div>
+</div><div class="header1">
+<div class="header">
+<div class="logo"><img src="img/01.png" alt="img" /></div>
+<div class="navigation">
+<ul class="nav">
+<li ><a href="admin.aspx"><br />Home</a></li>
+<li><a href="agency.aspx" ><br />New Agency</a></li>
+<li><a href="ApprvNGO.aspx" ><br />Approve NGO</a></li>
+<li><a href="reports.aspx"><br />View Cases</a></li>
+<li><a href="PublishCase.aspx"><br />Case Status</a></li>
+<li class="contacts"><a href="login.aspx"><br />Sign Out</a></li></ul>
+</div></div>
+
+</div><div class="hi"></div><div class="sliderr1">
+<div class="sliderr">
+
+
+        <div class="slider-wrapper theme-default">
+            <div class="ribbon"></div>
+            <div id="slider" class="nivoSlider">
+                <img src="img/s_1.png" alt="" />
+                <img src="img/s_2.png" alt="" />
+                <img src="img/s_3.png" alt="" />
+                                  </div>
+            
+       
+
+    </div></div>
+
+
+</div><div class="ask1">
+  <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form></div>
+
+
+
+</div></div>
+</body>
+</html>
